@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
 </head>
 <body>
 <header>
@@ -19,7 +21,8 @@
     </div>
     <div class="titulo">
       <h1>MyRitmoBox</h1>
-      <h2>Premium</h2>
+      <h2 class="h2">Premium</h2>
+    </div> 
     </div> 
     <div class="nav_bar">
     <ul class="nav_list">
@@ -29,7 +32,47 @@
         <img src="/assets/svg/img/setting.svg" alt="Setting">
     </ul>
     </div> 
+</header>
+<main>
+
+  <div class="titulo-contenedor">  
+    <div class="caratula">
+      <img src="/assets/svg/img/Caratula.png" alt="Caratula de Disco">
     </div>
-</header>    
+    <div class="titulo1">
+      <p class="song-title">Titulo de la Cancion</p>
+      <p class="album-title">Album de la Cancion</p>
+    </div>
+  </div>  
+  
+<div class="grid-contenedor" id="contenedor">
+  
+</div>
+</main>
+
+<footer class="current-song">
+  <div>
+      <div class="info">
+          <!-- Canción e información -->
+          <img src="/assets/svg/img/catherinefeeny_mrblue 2.png" alt="">
+
+          <div class="title">
+              <h4>Mr Blue</h4>
+              <p>Catherine Feeny</p>
+             
+          </div>
+       </div>
+      <div class="play">
+          <img class="play" src="/assets/svg/img/Group 6.png" alt="cancion anterior">
+          <img class="play" src="/assets/svg/img/Pause.png" alt="botonplay">
+          <img class="play" src="/assets/svg/img/Group 5.png" alt="botonsiguiente">
+      </div>
+    <div class="duracion">
+      <p class="inicio">0:00</p>
+      <img class="lineaduracion" src="/assets/svg/img/lineavolumen 1.png" alt="lineaduracion">
+      <p class="final">3:22</p>
+ </footer>     
+  </div>
+<script src="/main.js"></script>
 </body>
 </html>
