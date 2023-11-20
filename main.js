@@ -1,3 +1,6 @@
+let track_list = document.querySelector ('#track_list')
+console.log (track_list)
+
 let contenedor = document.querySelector('#contenedor')
 
 axios.get('https://leonardoapi.onrender.com/music')
